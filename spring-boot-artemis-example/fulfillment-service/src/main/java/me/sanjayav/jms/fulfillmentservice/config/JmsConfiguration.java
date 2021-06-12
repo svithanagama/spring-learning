@@ -29,14 +29,6 @@ public class JmsConfiguration {
     return new ActiveMQConnectionFactory();
   }
 
-//  @Bean
-//  public MessageListenerContainer messageListenerContainer( ConnectionFactory connectionFactory){
-//    DefaultMessageListenerContainer container = new DefaultMessageListenerContainer();
-//    container.setConnectionFactory(connectionFactory);
-//    container.setDestinationName(destinationQueue);
-//    return container;
-//  }
-
   @Bean
   public JmsTemplate jmsTemplate(ConnectionFactory connectionFactory,
       MessageConverter messageConverter) {

@@ -58,7 +58,7 @@ This repository contains an example of producing and consuming JMS messages with
 
 ### Option 1: Use the Postman  collection
 
-Use the Postman collection available in [docs/spring-boot-jms-example.postman_collection.json](docs)
+Use the Postman collection available in [docs folder](docs/spring-boot-jms-example.postman_collection.json)
 
 ### Option 2: Use the following `cURL` command
 
